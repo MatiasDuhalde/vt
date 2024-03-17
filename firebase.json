@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "site": "vt",
+    "public": "dist/vt/browser",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
