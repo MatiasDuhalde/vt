@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "vt",
+    "site": "veille-technologique",
     "public": "dist/vt/browser",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
