@@ -9,11 +9,12 @@ import { SourceReference, getReferenceRefId } from '../source-reference';
   styleUrl: './reference-link.component.scss',
 })
 export class ReferenceLinkComponent {
-  @Input() reference!: SourceReference;
-  referenceRefId: string = '';
+  @Input() referenceId!: string;
+  reference!: SourceReference;
+  refId!: string;
 
   public ngOnInit() {
-    this.referenceRefId = getReferenceRefId(this.reference);
+    this.refId = getReferenceRefId(this.reference);
   }
 
   public scrollToReference() {
