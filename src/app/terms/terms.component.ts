@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { TermListComponent } from './term-list/term-list.component';
 import { ReferenceListComponent } from '../references/reference-list/reference-list.component';
 import { ReferenceLinkComponent } from '../references/reference-link/reference-link.component';
-import { MatCardModule } from '@angular/material/card';
+import { FigureComponent } from '../figure/figure.component';
 
 @Component({
   selector: 'app-terms',
@@ -11,7 +11,7 @@ import { MatCardModule } from '@angular/material/card';
     TermListComponent,
     ReferenceListComponent,
     ReferenceLinkComponent,
-    MatCardModule,
+    FigureComponent,
   ],
   templateUrl: './terms.component.html',
   styleUrl: './terms.component.scss',

@@ -1,15 +1,13 @@
-.container {
-  display: flex;
-  min-height: 100vh;
-  overflow: auto;
-}
-
-.drawer-container {
-  min-width: 260px;
-}
-
 .content-container {
-  min-width: 320px;
-  flex: 1;
-  padding: 20px 50px;
+  display: flex;
+  width: 100%;
+  min-width: 100vw;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.content {
+  padding: 20px 0px;
+  max-width: 900px;
+  height: 100%;
 }

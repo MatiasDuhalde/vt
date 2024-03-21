@@ -1,1 +1,8 @@
-<p>figure works!</p>
+<mat-card class="figure-card">
+  <img mat-card-image src="{{ imgSrc }}" alt="{{ imgAlt }}" />
+  <mat-card-content>
+    <p class="mat-caption">
+      <ng-content></ng-content>
+    </p>
+  </mat-card-content>
+</mat-card>

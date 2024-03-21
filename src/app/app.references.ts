@@ -21,4 +21,8 @@ export const references: NewReferences = {
     content:
       'Angelov, Vladislav, Emiliyan Petkov, Georgi Shipkovenski, and Teodor Kalushkov. “Modern Virtual Reality Headsets.” In <i>2020 International Congress on Human-Computer Interaction, Optimization and Robotic Applications (HORA)</i>, 1–5. Ankara, Turkey: IEEE, 2020. <a href="https://doi.org/10.1109/HORA49412.2020.9152604">https://doi.org/10.1109/HORA49412.2020.9152604</a>.',
   },
+  'spatial-computing': {
+    content:
+      'Garg, D., B. Patel, R. Patel, and R. Jani. “Spatial Computing: Next Big Thing of Physical and Digital World.” <i>Lecture Notes in Electrical Engineering</i> 947 (2023): 211–19. <a href="https://doi.org/10.1007/978-981-19-5936-3_20">https://doi.org/10.1007/978-981-19-5936-3_20</a>.',
+  },
 };
