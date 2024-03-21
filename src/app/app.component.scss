@@ -1,6 +1,7 @@
 .container {
   display: flex;
   min-height: 100vh;
+  overflow: auto;
 }
 
 .drawer-container {
@@ -8,6 +9,7 @@
 }
 
 .content-container {
+  min-width: 320px;
   flex: 1;
-  padding: 20px;
+  padding: 20px 50px;
 }

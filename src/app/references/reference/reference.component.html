@@ -1,1 +1,3 @@
-<span id="{{ refId }}">{{ reference.content }}</span>
+<p id="{{ refId }}" class="mat-body-2">
+  <span>{{ reference.index }}</span>. <span [innerHTML]="reference.content"></span>
+</p>

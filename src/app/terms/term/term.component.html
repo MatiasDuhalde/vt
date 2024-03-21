@@ -1,4 +1,10 @@
-<div class="term">
-  <h3>{{ name }}</h3>
-  <ng-content></ng-content>
-</div>
+<mat-card class="term">
+  <mat-card-header>
+    <mat-card-title>
+      <h2>{{ name }}</h2>
+    </mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <ng-content></ng-content>
+  </mat-card-content>
+</mat-card>

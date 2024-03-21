@@ -1,0 +1,11 @@
+.cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.card-container {
+  width: 400px;
+}
