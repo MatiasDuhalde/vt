@@ -1,5 +1,5 @@
-<ul *ngFor="let reference of references">
-  <li>
+<mat-list role="list" *ngFor="let reference of orderedReferences">
+  <mat-list-item role="listitem">
     <app-source-reference [reference]="reference"></app-source-reference>
-  </li>
-</ul>
+  </mat-list-item>
+</mat-list>

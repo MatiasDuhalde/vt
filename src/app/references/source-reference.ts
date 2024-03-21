@@ -1,8 +1,8 @@
-export interface SourceReference {
-  id: string;
-  text: string;
-  index: string;
+export interface NewReference {
+  content: string;
 }
 
-export const getReferenceRefId = (reference: SourceReference) =>
-  `cite-entry-${reference.index}`;
+export interface Reference extends NewReference {
+  id: string;
+  index: number;
+}

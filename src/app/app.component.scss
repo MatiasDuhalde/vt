@@ -1,15 +1,13 @@
 .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
+  min-height: 100vh;
 }
 
-.sidebar {
-  width: 200px;
-  height: 100%;
+.drawer-container {
+  min-width: 260px;
+}
+
+.content-container {
+  flex: 1;
   padding: 20px;
-  box-sizing: border-box;
-  border-right: 1px solid #ccc;
 }

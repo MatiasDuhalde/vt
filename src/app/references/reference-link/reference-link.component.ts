@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
-import { SourceReference, getReferenceRefId } from '../source-reference';
+import { ReferencesService } from '../references.service';
+import { Reference } from '../source-reference';
 
 @Component({
   selector: 'app-reference-link',
@@ -10,15 +11,19 @@ import { SourceReference, getReferenceRefId } from '../source-reference';
 })
 export class ReferenceLinkComponent {
   @Input() referenceId!: string;
-  reference!: SourceReference;
+  reference!: Reference;
   refId!: string;
 
+  constructor(private referencesService: ReferencesService) {}
+
   public ngOnInit() {
-    this.refId = getReferenceRefId(this.reference);
+    this.reference = this.referencesService.getReferenceById(this.referenceId);
+    this.refId = this.referencesService.getReferenceRef(this.reference);
   }
 
-  public scrollToReference() {
-    const element = document.getElementById(this.referenceRefId);
+  public scrollToReference(event: Event) {
+    event.preventDefault();
+    const element = document.getElementById(this.refId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
