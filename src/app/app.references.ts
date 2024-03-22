@@ -61,7 +61,7 @@ export const references: NewReferences = {
     content:
       'Durrani, Sulaman, Chiduziem Onyedimma, Ryan Jarrah, Atiq Bhatti, Karim Rizwan Nathani, Archis R. Bhandarkar, William Mualem, et al. “The Virtual Vision of Neurosurgery: How Augmented Reality and Virtual Reality Are Transforming the Neurosurgical Operating Room.” <i>World Neurosurgery</i> 168 (December 1, 2022): 190–201. <a href="https://doi.org/10.1016/j.wneu.2022.10.002">https://doi.org/10.1016/j.wneu.2022.10.002</a>.',
   },
-  'vr-real-state': {
+  'vr-real-estate': {
     content:
       'Hsiao, Shih-Hui, Yen-Yao Wang, and Tony L.J. Lin. “The Impact of Low-Immersion Virtual Reality on Product Sales: Insights from the Real Estate Industry.” <i>Decision Support Systems</i> 178 (March 2024): 114131. <a href="https://doi.org/10.1016/j.dss.2023.114131">https://doi.org/10.1016/j.dss.2023.114131</a>.',
   },
@@ -84,5 +84,9 @@ export const references: NewReferences = {
   'collaboration-survey': {
     content:
       'Huang, Z., H. Wang, and X. Shi. “The Future of Work: Do We Need Interactive Collaborative Offices? The Most Interesting Survey in a Post-Covid World,” 115–20, 2023. <a href="https://doi.org/10.1109/ICDCSW60045.2023.00023">https://doi.org/10.1109/ICDCSW60045.2023.00023</a>.',
+  },
+  'vr-real-estate-2': {
+    content:
+      'Sahray, K., A.S. Sukereman, S.H. Rosman, and F.N.H. Jaafar. “THE IMPLEMENTATION OF VIRTUAL REALITY (VR) TECHNOLOGY IN REAL ESTATE INDUSTRY.” <i>Planning Malaysia</i> 21, no. 3 (2023): 255–65. <a href="https://doi.org/10.21837/pm.v21i27.1299">https://doi.org/10.21837/pm.v21i27.1299</a>.',
   },
 };
