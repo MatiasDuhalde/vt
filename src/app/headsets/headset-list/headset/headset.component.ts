@@ -1,9 +1,10 @@
 import { Component, Input } from '@angular/core';
+import { MatCardModule } from '@angular/material/card';
 
 @Component({
   selector: 'app-headset',
   standalone: true,
-  imports: [],
+  imports: [MatCardModule],
   templateUrl: './headset.component.html',
   styleUrl: './headset.component.scss',
 })

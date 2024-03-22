@@ -1,45 +1,160 @@
 <div>
   <h2>Options pour le consommateur</h2>
-  <app-headset name="Meta Quest 3" imagePath="/meta-quest-3.png">
-    <p>
-      Le dernier casque de réalité virtuelle de Meta.
-    </p>
-  </app-headset>
-  <app-headset name="Apple Vision Pro" imagePath="/apple-vision-pro.png">
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus
-      tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
-    </p>
-  </app-headset>
-  <app-headset name="Valve Index" imagePath="/valve-index.png">
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus
-      tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
-    </p>
-  </app-headset>
-  <app-headset name="PlayStation VR2" imagePath="/playstation-vr2.png">
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus
-      tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
-    </p>
-  </app-headset>
+  <div class="card-container">
+    <app-headset name="Meta Quest 3" imagePath="/assets/img/meta-quest-3.png">
+      <h4>
+        Le dernier casque de réalité virtuelle proposé par Meta, et le successeur du Meta Quest 2. Centré sur les
+        expériences de réalité mixte, et destiné à s'integrer au métavers de Méta<app-reference-link
+          referenceId="meta-quest-3"></app-reference-link>.
+      </h4>
+      <ul class="feature-list">
+        <li class="mat-caption"><b>Prix</b> : À partir de 549,99 €</li>
+        <li class="mat-caption"><b>Date de sortie</b> : 10 octobre 2023</li>
+        <li class="mat-caption"><b>Features</b> :</li>
+        <ul>
+          <li class="mat-caption">Standalone Headset</li>
+          <li class="mat-caption">Système d'exploitation basé sur Android</li>
+          <li class="mat-caption">Suivi des mains</li>
+          <li class="mat-caption">Full-color Passthrough</li>
+          <li class="mat-caption">Wi-Fi 6</li>
+        </ul>
+      </ul>
+    </app-headset>
+  </div>
+  <div class="card-container">
+    <app-headset name="Apple Vision Pro" imagePath="/assets/img/apple-vision-pro.png">
+      <h4>
+        Le premier casque de réalité virtuelle proposé par Apple. Propose un modèle basé sur le spatial computing,
+        destiné à s'integrer à l'écosystème Apple<app-reference-link
+          referenceId="apple-vision-pro"></app-reference-link>.
+      </h4>
+      <ul class="feature-list">
+        <li class="mat-caption"><b>Prix</b> : À partir de 3499,99 $</li>
+        <li class="mat-caption"><b>Date de sortie</b> : 2 février 2024</li>
+        <li class="mat-caption"><b>Features</b> :</li>
+        <ul>
+          <li class="mat-caption">Standalone Headset</li>
+          <li class="mat-caption">Système d'exploitation iOS</li>
+          <li class="mat-caption">Suivi des mains</li>
+          <li class="mat-caption">Full-color Passthrough</li>
+          <li class="mat-caption">Écran haute définition</li>
+          <li class="mat-caption">Suivi des yeux</li>
+          <li class="mat-caption">Commande vocale</li>
+          <li class="mat-caption">Écran extérieur</li>
+        </ul>
+      </ul>
+    </app-headset>
+  </div>
+  <div class="card-container">
+    <app-headset name="Valve Index" imagePath="/assets/img/valve-index.png">
+      <h4>
+        Casque de réalité virtuelle développé par Valve, destiné à s'intégrer à la plateforme Steam et à SteamOS pour
+        jouer à des jeux vidéo<app-reference-link referenceId="valve-index"></app-reference-link>.
+      </h4>
+      <ul class="feature-list">
+        <li class="mat-caption"><b>Prix</b> : À partir de 999,00 $</li>
+        <li class="mat-caption"><b>Date de sortie</b> : 28 juin 2019</li>
+        <li class="mat-caption"><b>Features</b> :</li>
+        <ul>
+          <li class="mat-caption">Tethered Headset</li>
+          <li class="mat-caption">Contrôleurs avec suivi des doigts</li>
+          <li class="mat-caption">Full-color Passthrough</li>
+          <li class="mat-caption">Taux de rafraîchissement élevé</li>
+          <li class="mat-caption">Faible latence</li>
+        </ul>
+      </ul>
+    </app-headset>
+  </div>
+  <div class="card-container">
+    <app-headset name="PlayStation VR2" imagePath="/assets/img/psvr2.png">
+      <h4>
+        Casque de réalité virtuelle de PlayStation pour la PS5. Destiné à fonctionner exclusivement avec cette console
+        pour jouer à des jeux vidéo et regarder des médias<app-reference-link
+          referenceId="playstation-vr-2"></app-reference-link>.
+      </h4>
+      <ul class="feature-list">
+        <li class="mat-caption"><b>Prix</b> : À partir de 599,00 €</li>
+        <li class="mat-caption"><b>Date de sortie</b> : 22 février 2023</li>
+        <li class="mat-caption"><b>Features</b> :</li>
+        <ul>
+          <li class="mat-caption">Tethered Headset</li>
+          <li class="mat-caption">Suivi des yeux</li>
+          <li class="mat-caption">Réponse haptique dans le headset</li>
+          <li class="mat-caption">Passthrough noir et blanc</li>
+          <li class="mat-caption">Écran 4K OLED définition</li>
+        </ul>
+      </ul>
+    </app-headset>
+  </div>
   <h2>Options pour les professionnels</h2>
-  <app-headset name="Meta Quest Pro" imagePath="/meta-quest-3-pro.png">
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus
-      tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
-    </p>
-  </app-headset>
-  <app-headset name="Microsoft Hololens 2" imagePath="/microsoft-hololens-2.png">
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus
-      tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
-    </p>
-  </app-headset>
-  <app-headset name="HTC Vive Pro" imagePath="/htc-vive-pro.png">
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus
-      tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
-    </p>
-  </app-headset>
+  <div class="card-container">
+    <app-headset name="Meta Quest Pro" imagePath="/assets/img/meta-quest-pro.png">
+      <h4>
+        Option de Meta destinée au monde professionnel. Intégration avec Meta Workrooms, la suite de productivité de
+        Meta pour les entreprises. Ce headset amène le monde professionnel dans le métavers<app-reference-link
+          referenceId="meta-quest-pro"></app-reference-link>.
+      </h4>
+      <ul class="feature-list">
+        <li class="mat-caption"><b>Prix</b> : À partir de 1199,99 €</li>
+        <li class="mat-caption"><b>Date de sortie</b> : 25 octobre 2022</li>
+        <li class="mat-caption"><b>Features</b> :</li>
+        <ul>
+          <li class="mat-caption">Standalone Headset</li>
+          <li class="mat-caption">Système d'exploitation iOS</li>
+          <li class="mat-caption">Suivi des mains</li>
+          <li class="mat-caption">Full-color Passthrough</li>
+          <li class="mat-caption">Suivi des yeux</li>
+          <li class="mat-caption">Suivi des expressions
+          <li class="mat-caption">Commande vocale</li>
+        </ul>
+      </ul>
+    </app-headset>
+  </div>
+  <div class="card-container">
+    <app-headset name="Microsoft Hololens 2" imagePath="/assets/img/hololens-2.png">
+      <h4>
+        HMD proposé par Microsoft, destiné exclusivement à la réalité augmentée. Le successeur du premier Hololens de
+        Microsoft, il est utilisé amplement dans l'industrie. Microsoft offre du support pour aider les entreprises à
+        intégrer cette technologie dans leurs opérations<app-reference-link
+          referenceId="microsoft-hololens-2"></app-reference-link>.
+      </h4>
+      <ul class="feature-list">
+        <li class="mat-caption"><b>Prix</b> : À partir de 3849,00 €</li>
+        <li class="mat-caption"><b>Date de sortie</b> : 7 novembre 2019</li>
+        <li class="mat-caption"><b>Features</b> :</li>
+        <ul>
+          <li class="mat-caption">Standalone Headset</li>
+          <li class="mat-caption">Connexion ans fil</li>
+          <li class="mat-caption">Système d'exploitation Windows Holographic OS</li>
+          <li class="mat-caption">Écran transparent avec affichage par laser</li>
+          <li class="mat-caption">Suivi des mains</li>
+          <li class="mat-caption">Suivi des yeux</li>
+          <li class="mat-caption">Détection des iris</li>
+        </ul>
+      </ul>
+    </app-headset>
+  </div>
+  <div class="card-container">
+    <app-headset name="Varjo XR-4" imagePath="/assets/img/varjo-xr4.png">
+      <h4>
+        Casque de réalité mixte proposé par Varjo, destiné aux professionnels. Il combine la
+        réalité virtuelle et la réalité augmentée pour des applications industrielles, telles que les simulations
+        médicales, l'entraînement, et le design industriel<app-reference-link
+          referenceId="varjo-xr-4"></app-reference-link>.
+      </h4>
+      <ul class="feature-list">
+        <li class="mat-caption"><b>Prix</b> : À partir de 3990,00 $</li>
+        <li class="mat-caption"><b>Date de sortie</b> : Q3 2023, sortie générale à l'avenir</li>
+        <li class="mat-caption"><b>Features</b> :</li>
+        <ul>
+          <li class="mat-caption">Tethered Headset</li>
+          <li class="mat-caption">Suivi des mains</li>
+          <li class="mat-caption">Suivi des yeux</li>
+          <li class="mat-caption">Haute densité de pixels</li>
+          <li class="mat-caption">Écran de haute résolution</li>
+          <li class="mat-caption">Full-color Passthrough</li>
+        </ul>
+      </ul>
+    </app-headset>
+  </div>
 </div>

@@ -25,4 +25,32 @@ export const references: NewReferences = {
     content:
       'Garg, D., B. Patel, R. Patel, and R. Jani. “Spatial Computing: Next Big Thing of Physical and Digital World.” <i>Lecture Notes in Electrical Engineering</i> 947 (2023): 211–19. <a href="https://doi.org/10.1007/978-981-19-5936-3_20">https://doi.org/10.1007/978-981-19-5936-3_20</a>.',
   },
+  'apple-vision-pro': {
+    content:
+      'Apple. “Apple Vision Pro.” Accessed March 22, 2024. <a href="https://www.apple.com/apple-vision-pro/">https://www.apple.com/apple-vision-pro/</a>.<div></div>',
+  },
+  'microsoft-hololens-2': {
+    content:
+      '“HoloLens 2 : offres et tarifs | Microsoft HoloLens.” Accessed March 22, 2024. <a href="https://www.microsoft.com/fr-fr/hololens/buy">https://www.microsoft.com/fr-fr/hololens/buy</a>.',
+  },
+  'meta-quest-3': {
+    content:
+      '“Meta Quest 3: New Mixed Reality VR Headset – Shop Now | Meta Store.” Accessed March 21, 2024. <a href="https://www.meta.com/fr/en/quest/quest-3/">https://www.meta.com/fr/en/quest/quest-3/</a>.',
+  },
+  'meta-quest-pro': {
+    content:
+      '“Meta Quest Pro: Premium Mixed Reality | Meta Store.” Accessed March 22, 2024. <a href="https://www.meta.com/fr/en/quest/quest-pro/">https://www.meta.com/fr/en/quest/quest-pro/</a>.',
+  },
+  'playstation-vr-2': {
+    content:
+      'PlayStation. “PlayStation®VR2 | La nouvelle génération du jeu en VR sur PS5.” Accessed March 22, 2024. <a href="https://www.playstation.com/fr-fr/ps-vr2/">https://www.playstation.com/fr-fr/ps-vr2/</a>.',
+  },
+  'valve-index': {
+    content:
+      '“Valve Index.” Accessed March 22, 2024. <a href="https://store.steampowered.com/valveindex">https://store.steampowered.com/valveindex</a>.',
+  },
+  'varjo-xr-4': {
+    content:
+      'Varjo.com. “Varjo XR-4 Series.” Accessed March 22, 2024. <a href="https://varjo.com/products/xr-4/">https://varjo.com/products/xr-4/</a>.',
+  },
 };
