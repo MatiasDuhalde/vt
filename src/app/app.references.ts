@@ -89,4 +89,8 @@ export const references: NewReferences = {
     content:
       'Sahray, K., A.S. Sukereman, S.H. Rosman, and F.N.H. Jaafar. “THE IMPLEMENTATION OF VIRTUAL REALITY (VR) TECHNOLOGY IN REAL ESTATE INDUSTRY.” <i>Planning Malaysia</i> 21, no. 3 (2023): 255–65. <a href="https://doi.org/10.21837/pm.v21i27.1299">https://doi.org/10.21837/pm.v21i27.1299</a>.',
   },
+  'vr-engineering': {
+    content:
+      'Liao, T., and J. She. “HOW DOES VIRTUAL REALITY (VR) FACILITATE DESIGN? A REVIEW OF VR USAGE IN EARLY-STAGE ENGINEERING DESIGN,” 3:2115–24, 2023. <a href="https://doi.org/10.1017/pds.2023.212">https://doi.org/10.1017/pds.2023.212</a>.',
+  },
 };
