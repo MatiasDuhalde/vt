@@ -53,4 +53,36 @@ export const references: NewReferences = {
     content:
       'Varjo.com. “Varjo XR-4 Series.” Accessed March 22, 2024. <a href="https://varjo.com/products/xr-4/">https://varjo.com/products/xr-4/</a>.',
   },
+  'ar-vr-education': {
+    content:
+      'Al-Ansi, Abdullah M., Mohammed Jaboob, Askar Garad, and Ahmed Al-Ansi. “Analyzing Augmented Reality (AR) and Virtual Reality (VR) Recent Development in Education.” <i>Social Sciences &amp; Humanities Open</i> 8, no. 1 (January 1, 2023): 100532. <a href="https://doi.org/10.1016/j.ssaho.2023.100532">https://doi.org/10.1016/j.ssaho.2023.100532</a>.',
+  },
+  'ar-vr-neuro': {
+    content:
+      'Durrani, Sulaman, Chiduziem Onyedimma, Ryan Jarrah, Atiq Bhatti, Karim Rizwan Nathani, Archis R. Bhandarkar, William Mualem, et al. “The Virtual Vision of Neurosurgery: How Augmented Reality and Virtual Reality Are Transforming the Neurosurgical Operating Room.” <i>World Neurosurgery</i> 168 (December 1, 2022): 190–201. <a href="https://doi.org/10.1016/j.wneu.2022.10.002">https://doi.org/10.1016/j.wneu.2022.10.002</a>.',
+  },
+  'vr-real-state': {
+    content:
+      'Hsiao, Shih-Hui, Yen-Yao Wang, and Tony L.J. Lin. “The Impact of Low-Immersion Virtual Reality on Product Sales: Insights from the Real Estate Industry.” <i>Decision Support Systems</i> 178 (March 2024): 114131. <a href="https://doi.org/10.1016/j.dss.2023.114131">https://doi.org/10.1016/j.dss.2023.114131</a>.',
+  },
+  'vr-spine': {
+    content:
+      'Lohre, Ryan, Jeffrey C. Wang, Kai-Uwe Lewandrowski, and Danny P. Goel. “Virtual Reality in Spinal Endoscopy: A Paradigm Shift in Education to Support Spine Surgeons.” <i>Journal of Spine Surgery</i> 6, no. Suppl 1 (January 2020): S208–23. <a href="https://doi.org/10.21037/jss.2019.11.16">https://doi.org/10.21037/jss.2019.11.16</a>.',
+  },
+  'vr-neuro-apps': {
+    content:
+      'Mishra, Rakesh, M.D. Krishna Narayanan, Giuseppe E. Umana, Nicola Montemurro, Bipin Chaurasia, and Harsh Deora. “Virtual Reality in Neurosurgery: Beyond Neurosurgical Planning.” <i>International Journal of Environmental Research and Public Health</i> 19, no. 3 (February 2, 2022): 1719. <a href="https://doi.org/10.3390/ijerph19031719">https://doi.org/10.3390/ijerph19031719</a>.',
+  },
+  'vr-surgical-planning': {
+    content:
+      'Reinschluessel, A.V., T. Muender, D. Salzmann, T. Döring, R. Malaka, and D. Weyhe. “Virtual Reality for Surgical Planning – Evaluation Based on Two Liver Tumor Resections.” <i>Frontiers in Surgery</i> 9 (2022). <a href="https://doi.org/10.3389/fsurg.2022.821060">https://doi.org/10.3389/fsurg.2022.821060</a>.',
+  },
+  horizons: {
+    content:
+      '“Scopus - Document Details - Meet Me in VR! Can VR Space Help Remote Teams Connect: A Seven-Week Study with Horizon Workrooms.” Accessed March 22, 2024. <a href="https://doi.org/10.1016/j.ijhcs.2023.103104">https://doi.org/10.1016/j.ijhcs.2023.103104</a>.',
+  },
+  'collaboration-survey': {
+    content:
+      'Huang, Z., H. Wang, and X. Shi. “The Future of Work: Do We Need Interactive Collaborative Offices? The Most Interesting Survey in a Post-Covid World,” 115–20, 2023. <a href="https://doi.org/10.1109/ICDCSW60045.2023.00023">https://doi.org/10.1109/ICDCSW60045.2023.00023</a>.',
+  },
 };
